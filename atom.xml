@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>zhangly</title>
   <icon>https://zhanglyhub.github.io/icon.png</icon>
-  <subtitle>Welcome to zhangly blog!</subtitle>
+  <subtitle>希望下次秒懂的是算法</subtitle>
   <link href="https://zhanglyhub.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhanglyhub.github.io/"/>
-  <updated>2025-06-08T13:37:50.416Z</updated>
+  <updated>2025-06-08T13:52:27.325Z</updated>
   <id>https://zhanglyhub.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zhanglyhub.github.io/2025/06/08/bfs/"/>
     <id>https://zhanglyhub.github.io/2025/06/08/bfs/</id>
     <published>2025-06-08T13:27:33.000Z</published>
-    <updated>2025-06-08T13:37:50.416Z</updated>
+    <updated>2025-06-08T13:52:27.325Z</updated>
     
     
       
