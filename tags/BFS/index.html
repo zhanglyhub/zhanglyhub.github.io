@@ -29,7 +29,7 @@
   <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_0khxww3tj3q9';window.REIMU_CONFIG.clipboard_tips = {"success":{"en":"Copy successfully (*^▽^*)","zh-CN":"复制成功 (*^▽^*)","zh-TW":"複製成功 (*^▽^*)","ja":"コピー成功 (*^▽^*)"},"fail":{"en":"Copy failed (ﾟ⊿ﾟ)ﾂ","zh-CN":"复制失败 (ﾟ⊿ﾟ)ﾂ","zh-TW":"複製失敗 (ﾟ⊿ﾟ)ﾂ","ja":"コピー失敗 (ﾟ⊿ﾟ)ﾂ"},"copyright":{"enable":false,"count":50,"license_type":"by-nc-sa"}};window.REIMU_CONFIG.clipboard_tips.copyright.content = '本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！';window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'https://zhanglyhub.github.io';</script>
   
   <title>
-    bfs |
+    标签: -BFS |
     
     zhangly
   </title>
@@ -49,18 +49,18 @@
 
   
   
-    <meta name="description" content="#include&lt;bits&#x2F;stdc++.h&gt; using namespace std;  class Solution &#123; public:     int maxDistance(vector&lt;vector&lt;int&gt;&gt;&amp; grid) &#123;         int n &#x3D; grid.size();         int d[] &#x3D; &#123;-1,">
-<meta property="og:type" content="article">
-<meta property="og:title" content="bfs">
-<meta property="og:url" content="https://zhanglyhub.github.io/2025/06/08/bfs-1/index.html">
+    <meta name="description" content="个人技术博客，分享编程、算法与生活">
+<meta property="og:type" content="website">
+<meta property="og:title" content="zhangly">
+<meta property="og:url" content="https://zhanglyhub.github.io/tags/BFS/index.html">
 <meta property="og:site_name" content="zhangly">
-<meta property="og:description" content="#include&lt;bits&#x2F;stdc++.h&gt; using namespace std;  class Solution &#123; public:     int maxDistance(vector&lt;vector&lt;int&gt;&gt;&amp; grid) &#123;         int n &#x3D; grid.size();         int d[] &#x3D; &#123;-1,">
+<meta property="og:description" content="个人技术博客，分享编程、算法与生活">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-06-08T07:56:09.000Z">
-<meta property="article:modified_time" content="2025-06-08T10:48:36.292Z">
+<meta property="og:image" content="https://zhanglyhub.github.io/images/banner.webp">
 <meta property="article:author" content="zhangly">
 <meta property="article:tag" content="hexo,blog,zhangly,programming">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zhanglyhub.github.io/images/banner.webp">
   
   
     <link rel="alternate" href="/atom.xml" title="zhangly" type="application/atom+xml">
@@ -75,9 +75,7 @@
   
     
       
-        
-<link rel="stylesheet" href="https://npm.webcache.cn/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l&#x2F;9On385z&#x2F;&#x2F;&#x2F;+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
-
+        <link rel="preload" as="style" onload="this.onload&#x3D;null;this.rel&#x3D;&#39;stylesheet&#39;" href="https://npm.webcache.cn/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l&#x2F;9On385z&#x2F;&#x2F;&#x2F;+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
       
     
   
@@ -220,8 +218,23 @@
 </div>
 <header id="header">
   
-    <picture></picture>
-    <img crossorigin="anonymous" fetchpriority="high" src="/images/a.webp" alt="bfs">
+    
+      <picture>
+        
+          
+            <source media="(max-width: 479px)" srcset="/images/a.webp">
+          
+            <source media="(max-width: 799px)" srcset="/images/b.webp">
+          
+            <source media="(min-width:  800px)" srcset="/images/c.webp">
+          
+          <img crossorigin="anonymous" fetchpriority="high" src="/crossorigin=%22anonymous%22%20-%20%22/images/a.webp%22%20-%20%22/images/b.webp%22%20-%20%22/images/c.webp%22" alt="">
+        
+      </picture>
+      
+        <img alt="" style="visibility: hidden;">
+      
+    
   
   <div id="header-outer">
     <div id="header-title">
@@ -229,13 +242,15 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">bfs</h1>
+            <h1 data-aos="slide-up">标签</h1>
           </a>
         
       
       
         
         <h2 id="subtitle-wrap" data-aos="slide-down">
+          
+            <a href="/" id="subtitle">-BFS</a>
           
         </h2>
       
@@ -250,20 +265,10 @@
     <div id="aplayer" theme="var(--color-link)" data-aos="fade-up"></div>
   
   
-  <div class="sidebar-wrapper wrap-sticky">
+  <div class="sidebar-wrapper ">
     <div class="sidebar-wrap" data-aos="fade-up">
       
-        
-          <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
-  <h3 class="toc-title">文章目录</h3>
-  <div class="sidebar-toc-wrapper toc-div-class" >
-      
-        
-      
-  </div>
-</div>
-</div>
-          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+        <div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="zhangly" class="lazyload">
   <div class="sidebar-author-name">zhangly</div>
   <div class="sidebar-description">个人技术博客，分享编程、算法与生活</div>
@@ -271,7 +276,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">2</div>
+    <div class="sidebar-state-number">1</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -279,7 +284,7 @@
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">0</div>
+    <div class="sidebar-state-number">1</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -342,16 +347,8 @@
     
   
 </div>
-</div>
-        
+
       
-      
-        
-          <div class="sidebar-btn-wrapper" style="position:static">
-            <div class="sidebar-toc-btn current"></div>
-            <div class="sidebar-common-btn"></div>
-          </div>
-        
       
     </div>
   </div>
@@ -362,123 +359,56 @@
   
 </aside>
 
-          <section id="main"><article id="post-bfs-1" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-inner" data-aos="fade-up">
-    <div class="article-meta">
-      <div class="article-date">
-  <span class="article-date-link" data-aos="zoom-in">
-    <time datetime="2025-06-08T07:56:09.000Z" itemprop="datePublished">2025-06-08</time>
-    <time style="display: none;" id="post-update-time">2025-06-08</time>
-  </span>
+          <section id="main">
+<div class="archives-outer-wrap" data-aos="fade-up">
+  
+    <div class="tag-wrap">
+  
+    <div class="archives-tag-list-item" data-aos="zoom-in">
+      <a class="archives-tag-list-link" href="/tags/BFS/">-BFS</a>
+    </div>
+  
 </div>
-
-      
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Algorithm/" data-aos="zoom-in">Algorithm</a>
-  </div>
-
-
+<div class="category-wrap">
+  
+    <div class="archives-category-list-item" data-aos="zoom-in">
+      <a class="archives-category-list-link" href="/categories/Algorithm/">Algorithm</a>
     </div>
-    <div class="hr-line"></div>
+  
+</div>
+  
+  
     
-
-    <div class="e-content article-entry" itemprop="articleBody">
+    
+    
       
       
-        <pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span><span class="token string">&lt;bits/stdc++.h></span></span>
-<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
-
-<span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">&#123;</span>
-<span class="token keyword">public</span><span class="token operator">:</span>
-    <span class="token keyword">int</span> <span class="token function">maxDistance</span><span class="token punctuation">(</span>vector<span class="token operator">&lt;</span>vector<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">>></span><span class="token operator">&amp;</span> grid<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-        <span class="token keyword">int</span> n <span class="token operator">=</span> grid<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> d<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span class="token comment">//d数组的用法</span>
-        <span class="token keyword">int</span> sea <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-         queue<span class="token operator">&lt;</span>pair<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token punctuation">,</span> <span class="token keyword">int</span><span class="token operator">>></span> q<span class="token punctuation">;</span>
-        <span class="token keyword">bool</span> vis<span class="token punctuation">[</span><span class="token number">101</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token number">101</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
-        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> n<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-                <span class="token keyword">if</span><span class="token punctuation">(</span>grid<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-                    q<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span>i<span class="token punctuation">,</span> j<span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    vis<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-                <span class="token punctuation">&#125;</span> <span class="token keyword">else</span> <span class="token punctuation">&#123;</span>
-                    vis<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-                    sea<span class="token operator">++</span><span class="token punctuation">;</span>
-                <span class="token punctuation">&#125;</span>
-            <span class="token punctuation">&#125;</span>
-        <span class="token punctuation">&#125;</span>
-        <span class="token keyword">if</span><span class="token punctuation">(</span>sea <span class="token operator">==</span> <span class="token number">0</span> <span class="token operator">||</span> sea <span class="token operator">==</span> n <span class="token operator">*</span> n<span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
-        <span class="token keyword">int</span> level <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>        <span class="token comment">//注意level初始化为-1，默认从第0层开始</span>
-        <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token operator">!</span>q<span class="token punctuation">.</span><span class="token function">empty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-            level<span class="token operator">++</span><span class="token punctuation">;</span>
-            <span class="token comment">//cout &lt;&lt; level &lt;&lt; ' ';</span>
-            <span class="token keyword">int</span> sz <span class="token operator">=</span> q<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> sz<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-                <span class="token keyword">int</span> x <span class="token operator">=</span> q<span class="token punctuation">.</span><span class="token function">front</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>first<span class="token punctuation">;</span>
-                <span class="token keyword">int</span> y <span class="token operator">=</span> q<span class="token punctuation">.</span><span class="token function">front</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>second<span class="token punctuation">;</span>
-                q<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">4</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-                    <span class="token keyword">int</span> nx <span class="token operator">=</span> x <span class="token operator">+</span> d<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">;</span>
-                    <span class="token keyword">int</span> ny <span class="token operator">=</span> y <span class="token operator">+</span> d<span class="token punctuation">[</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-                    <span class="token keyword">if</span><span class="token punctuation">(</span>nx <span class="token operator">&lt;</span> n <span class="token operator">&amp;&amp;</span> nx <span class="token operator">>=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> ny <span class="token operator">>=</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> ny <span class="token operator">&lt;</span> n <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span>vis<span class="token punctuation">[</span>nx<span class="token punctuation">]</span><span class="token punctuation">[</span>ny<span class="token punctuation">]</span> <span class="token operator">&amp;&amp;</span> grid<span class="token punctuation">[</span>nx<span class="token punctuation">]</span><span class="token punctuation">[</span>ny<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-                        vis<span class="token punctuation">[</span>nx<span class="token punctuation">]</span><span class="token punctuation">[</span>ny<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-                        <span class="token comment">//cout &lt;&lt; nx &lt;&lt; ' ' &lt;&lt; ny &lt;&lt; endl;</span>
-                        q<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span>nx<span class="token punctuation">,</span> ny<span class="token punctuation">&#125;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-                    <span class="token punctuation">&#125;</span>
-                <span class="token punctuation">&#125;</span>
-            <span class="token punctuation">&#125;</span>
-        <span class="token punctuation">&#125;</span>
-        <span class="token keyword">return</span> level<span class="token punctuation">;</span>
-    <span class="token punctuation">&#125;</span>
-<span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-
-    </footer>
+        
+        
+        <section class="archives-wrap" data-aos="fade-up">
+          <div class="archive-year-wrap">
+            <a href="/archives/2025" class="archive-year">2025</a>
+          </div>
+          <ul>
+            
+            <li class="archive-article">
+  <div class="archive-article-date-wrap">
+    <span>
+      <time class="dt-published" datetime="2025-06-08T13:27:33.000Z" itemprop="datePublished">06-08</time>
+    </span>
   </div>
   
-  <nav id="article-nav" data-aos="fade-up">
+    <a class="archive-article-title" href="/2025/06/08/bfs/">BFS</a>
+  
+</li>
+
+            
+            
+          </ul>
+        </section>
     
-    
-    
-    <div class="article-nav-link-wrap article-nav-link-right">
-      
-        
-        
-          <img data-src="https://d-sketon.top/img/backimg/bg1.jpg" data-sizes="auto" alt="" class="lazyload">
-        
-      
-      <a href="/1970/01/01/bfs/"></a>
-      <div class="article-nav-caption">后一篇</div>
-      <h3 class="article-nav-title">
-        
-          (no title)
-        
-      </h3>
-    </div>
-    
-  </nav>
-
-
-</article>
-
-
-
-
-
-
-
+  
+  </div>
 
 
 
@@ -509,10 +439,10 @@
     
       <div>
         <span class="icon-brush"></span>
-        4.1k
+        3.8k
         &nbsp;|&nbsp;
         <span class="icon-coffee"></span>
-        00:22
+        00:21
       </div>
     
     
@@ -540,17 +470,7 @@
       <nav id="mobile-nav">
   <div class="sidebar-wrap">
     
-      
-        <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
-  <h3 class="toc-title">文章目录</h3>
-  <div class="sidebar-toc-wrapper toc-div-class" >
-      
-        
-      
-  </div>
-</div>
-</div>
-        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+      <div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="zhangly" class="lazyload">
   <div class="sidebar-author-name">zhangly</div>
   <div class="sidebar-description">个人技术博客，分享编程、算法与生活</div>
@@ -558,7 +478,7 @@
 <div class="sidebar-state">
   <div class="sidebar-state-article">
     <div>文章</div>
-    <div class="sidebar-state-number">2</div>
+    <div class="sidebar-state-number">1</div>
   </div>
   <div class="sidebar-state-category">
     <div>分类</div>
@@ -566,7 +486,7 @@
   </div>
   <div class="sidebar-state-tag">
     <div>标签</div>
-    <div class="sidebar-state-number">0</div>
+    <div class="sidebar-state-number">1</div>
   </div>
 </div>
 <div class="sidebar-social">
@@ -629,17 +549,9 @@
     
   
 </div>
-</div>
-      
+
     
   </div>
-  
-    
-      <div class="sidebar-btn-wrapper">
-        <div class="sidebar-toc-btn current"></div>
-        <div class="sidebar-common-btn"></div>
-      </div>
-    
   
 </nav>
 
@@ -885,71 +797,11 @@
 
 <div id="lazy-script">
   <div>
-    
-      
-      
-      <script data-pjax>
-        window.REIMU_POST = {
-          author: "zhangly",
-          title: "bfs",
-          url: "https://zhanglyhub.github.io/2025/06/08/bfs-1/",
-          excerpt: "",
-          description: "",
-          stripContent: "#include&amp;lt;bits/stdc++.h&gt; using namespace std;  class Solution &amp;#123; public:     int maxDistance(vector&amp;lt;vector&amp;lt;int&gt;&gt;&amp;amp; grid) &amp;#123;         int n = grid.size();         int d[] = &amp;#123;-1, 0, 1, 0, -1&amp;#125;;//d数组的用法         int sea = 0;   ",
-          date: "Sun Jun 08 2025 15:56:09 GMT+0800",
-          updated: "Sun Jun 08 2025 18:48:36 GMT+0800",
-          cover: "/images/a.webp",
-        };
-      </script>
        
     
     
       
-        
-<script src="/js/insert_highlight.js" data-pjax></script>
-
-        
-      
     
-    
-      <script type="module" data-pjax>
-        const PhotoSwipeLightbox = (await safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe-lightbox.esm.min.js", "sha384-DiL6M/gG+wmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF/N6lrZi/")).default;
-        
-        const pswp = () => {
-          if (_$$('.article-entry a.article-gallery-item').length > 0) {
-            new PhotoSwipeLightbox({
-              gallery: '.article-entry',
-              children: 'a.article-gallery-item',
-              pswpModule: () => safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8+oTJ7m3DfYEWX1fu1scuS4+s")
-            }).init();
-          }
-          if(_$$('.article-gallery a.article-gallery-item').length > 0) {
-            new PhotoSwipeLightbox({
-              gallery: '.article-gallery',
-              children: 'a.article-gallery-item',
-              pswpModule: () => safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8+oTJ7m3DfYEWX1fu1scuS4+s")
-            }).init();
-          }
-          window.lightboxStatus = 'done';
-          window.removeEventListener('lightbox:ready', pswp);
-        }
-        if(window.lightboxStatus === 'ready') {
-          pswp()
-        } else {
-          window.addEventListener('lightbox:ready', pswp);
-        }
-      </script>
-      
-        
-
-
-
-
-
-
-
-
-      
     
   </div>
 </div>
