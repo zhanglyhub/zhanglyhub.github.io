@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zhangly</title>
+  <icon>https://zhanglyhub.github.io/icon.png</icon>
+  <subtitle>Welcome to zhangly blog!</subtitle>
+  <link href="https://zhanglyhub.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zhanglyhub.github.io/"/>
+  <updated>2025-06-08T08:16:18.883Z</updated>
+  <id>https://zhanglyhub.github.io/</id>
+  
+  <author>
+    <name>zhangly</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>bfs</title>
+    <link href="https://zhanglyhub.github.io/2025/06/08/bfs-1/"/>
+    <id>https://zhanglyhub.github.io/2025/06/08/bfs-1/</id>
+    <published>2025-06-08T07:56:09.000Z</published>
+    <updated>2025-06-08T08:16:18.883Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-cpp&quot; data-language=&quot;cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://zhanglyhub.github.io/1970/01/01/hello-world/"/>
+    <id>https://zhanglyhub.github.io/1970/01/01/hello-world/</id>
+    <published>1970-01-01T00:00:00.000Z</published>
+    <updated>2025-06-07T14:16:50.525Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://zhanglyhub.github.io/1970/01/01/bfs/"/>
+    <id>https://zhanglyhub.github.io/1970/01/01/bfs/</id>
+    <published>1970-01-01T00:00:00.000Z</published>
+    <updated>2025-06-07T15:03:16.319Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;众里寻她千百度蓦然回首那人却在灯火阑珊处&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#众里寻她千百度蓦然回首那人却在灯火阑珊处&quot;&gt;&lt;/a&gt; 众里寻她千百度，蓦然回首，那人却在灯火阑珊处。&lt;/h1&gt;
+&lt;h1 id=&quot;bfs&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
