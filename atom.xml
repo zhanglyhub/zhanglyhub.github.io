@@ -6,7 +6,7 @@
   <link href="https://zhanglyhub.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhanglyhub.github.io/"/>
-  <updated>2025-06-12T16:14:58.370Z</updated>
+  <updated>2025-06-13T11:37:11.655Z</updated>
   <id>https://zhanglyhub.github.io/</id>
   
   <author>
@@ -17,9 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Bfs Status Message</title>
+    <link href="https://zhanglyhub.github.io/2025/06/13/e/"/>
+    <id>https://zhanglyhub.github.io/2025/06/13/e/</id>
+    <published>2025-06-13T09:16:00.000Z</published>
+    <updated>2025-06-13T11:37:11.655Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://codeforces.com/contest/59/problem/E&quot;&gt;https://codeforces.com/contest/59/problem/E&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;经典的&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Algorithm" scheme="https://zhanglyhub.github.io/categories/Algorithm/"/>
+    
+    
+    <category term="-BFS" scheme="https://zhanglyhub.github.io/tags/BFS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Unsolve</title>
-    <link href="https://zhanglyhub.github.io/2025/06/13/d/"/>
-    <id>https://zhanglyhub.github.io/2025/06/13/d/</id>
+    <link href="https://zhanglyhub.github.io/2025/06/12/d/"/>
+    <id>https://zhanglyhub.github.io/2025/06/12/d/</id>
     <published>2025-06-12T16:14:00.000Z</published>
     <updated>2025-06-12T16:14:58.370Z</updated>
     
@@ -68,8 +94,8 @@
   
   <entry>
     <title>Mistakes Book</title>
-    <link href="https://zhanglyhub.github.io/2025/06/11/b/"/>
-    <id>https://zhanglyhub.github.io/2025/06/11/b/</id>
+    <link href="https://zhanglyhub.github.io/2025/06/10/b/"/>
+    <id>https://zhanglyhub.github.io/2025/06/10/b/</id>
     <published>2025-06-11T04:40:00.000Z</published>
     <updated>2025-06-12T13:03:14.763Z</updated>
     
@@ -93,8 +119,8 @@
   
   <entry>
     <title>Key And Lock</title>
-    <link href="https://zhanglyhub.github.io/2025/06/11/Key-And-Lock/"/>
-    <id>https://zhanglyhub.github.io/2025/06/11/Key-And-Lock/</id>
+    <link href="https://zhanglyhub.github.io/2025/06/10/Key-And-Lock/"/>
+    <id>https://zhanglyhub.github.io/2025/06/10/Key-And-Lock/</id>
     <published>2025-06-11T04:40:00.000Z</published>
     <updated>2025-06-10T16:43:47.961Z</updated>
     
@@ -169,8 +195,8 @@
   
   <entry>
     <title>SPIKES - Spiky Mazes</title>
-    <link href="https://zhanglyhub.github.io/2025/06/08/a/"/>
-    <id>https://zhanglyhub.github.io/2025/06/08/a/</id>
+    <link href="https://zhanglyhub.github.io/2025/06/07/a/"/>
+    <id>https://zhanglyhub.github.io/2025/06/07/a/</id>
     <published>2025-06-08T04:25:00.000Z</published>
     <updated>2025-06-11T06:24:53.969Z</updated>
     
