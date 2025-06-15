@@ -6,7 +6,7 @@
   <link href="https://zhanglyhub.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhanglyhub.github.io/"/>
-  <updated>2025-06-14T11:35:31.883Z</updated>
+  <updated>2025-06-15T09:23:38.491Z</updated>
   <id>https://zhanglyhub.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bfs For Path</title>
+    <link href="https://zhanglyhub.github.io/2025/06/15/m/"/>
+    <id>https://zhanglyhub.github.io/2025/06/15/m/</id>
+    <published>2025-06-15T09:00:00.000Z</published>
+    <updated>2025-06-15T09:23:38.491Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://vjudge.net/problem/UVA-10968&quot;&gt;KuPellaKeS - UVA 10968 - Virtual Judge&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;_ _Wa___WA_Wa but</summary>
+        
+      
+    
+    
+    
+    <category term="Algorithm" scheme="https://zhanglyhub.github.io/categories/Algorithm/"/>
+    
+    
+    <category term="-BFS" scheme="https://zhanglyhub.github.io/tags/BFS/"/>
+    
+  </entry>
   
   <entry>
     <title>Bfs Status Message</title>
@@ -47,14 +73,15 @@
     <link href="https://zhanglyhub.github.io/2025/06/12/d/"/>
     <id>https://zhanglyhub.github.io/2025/06/12/d/</id>
     <published>2025-06-12T16:14:00.000Z</published>
-    <updated>2025-06-14T14:41:14.119Z</updated>
+    <updated>2025-06-15T09:56:28.616Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;pre class=&quot;line-numbers language-cpp&quot; data-language=&quot;cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;&lt;span class=&quot;token macro property&quot;&gt;&lt;span class=&quot;token</summary>
+    <summary type="html">&lt;pre class=&quot;line-numbers language-cpp&quot; data-language=&quot;cpp&quot;&gt;&lt;code class=&quot;language-cpp&quot;&gt;
+https&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt;&lt;span</summary>
         
       
     
@@ -119,11 +146,11 @@
   </entry>
   
   <entry>
-    <title>Mistakes Book</title>
+    <title>Mistakes Book-</title>
     <link href="https://zhanglyhub.github.io/2025/06/10/b/"/>
     <id>https://zhanglyhub.github.io/2025/06/10/b/</id>
     <published>2025-06-11T04:40:00.000Z</published>
-    <updated>2025-06-14T14:40:13.949Z</updated>
+    <updated>2025-06-15T09:54:32.325Z</updated>
     
     
       

@@ -29,7 +29,7 @@
   <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_0khxww3tj3q9';window.REIMU_CONFIG.clipboard_tips = {"success":{"en":"Copy successfully (*^▽^*)","zh-CN":"复制成功 (*^▽^*)","zh-TW":"複製成功 (*^▽^*)","ja":"コピー成功 (*^▽^*)"},"fail":{"en":"Copy failed (ﾟ⊿ﾟ)ﾂ","zh-CN":"复制失败 (ﾟ⊿ﾟ)ﾂ","zh-TW":"複製失敗 (ﾟ⊿ﾟ)ﾂ","ja":"コピー失敗 (ﾟ⊿ﾟ)ﾂ"},"copyright":{"enable":true,"count":50,"license_type":"by-nc-sa"}};window.REIMU_CONFIG.clipboard_tips.copyright.content = '本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！';window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'https://zhanglyhub.github.io';</script>
   
   <title>
-    友情链接 |
+    Bfs For Path |
     
     zhangly
   </title>
@@ -49,20 +49,18 @@
 
   
   
-    <meta name="description" content="小伙伴们                                                                Theshine                        一个车万人">
-<meta property="og:type" content="website">
-<meta property="og:title" content="友情链接">
-<meta property="og:url" content="https://zhanglyhub.github.io/friend/index.html">
+    <meta name="description" content="KuPellaKeS - UVA 10968 - Virtual Judge _ _Wa___WA_Wa but Ac..... 被输入输出坑了，...................无语， 本题我刚开始想的时候是维护用并查集维护冗余边，............................不会这么简单吧....好吧真不是这么简单，我一开始也没想到是最短路维护路径信息，看大佬题解才后知后觉，题目">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Bfs For Path">
+<meta property="og:url" content="https://zhanglyhub.github.io/2025/06/15/m/index.html">
 <meta property="og:site_name" content="zhangly">
-<meta property="og:description" content="小伙伴们                                                                Theshine                        一个车万人">
+<meta property="og:description" content="KuPellaKeS - UVA 10968 - Virtual Judge _ _Wa___WA_Wa but Ac..... 被输入输出坑了，...................无语， 本题我刚开始想的时候是维护用并查集维护冗余边，............................不会这么简单吧....好吧真不是这么简单，我一开始也没想到是最短路维护路径信息，看大佬题解才后知后觉，题目">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://zhanglyhub.github.io/images/banner.webp">
-<meta property="article:published_time" content="2025-06-08T14:21:33.670Z">
-<meta property="article:modified_time" content="2025-06-08T14:21:33.670Z">
+<meta property="article:published_time" content="2025-06-15T09:00:00.000Z">
+<meta property="article:modified_time" content="2025-06-15T09:23:38.491Z">
 <meta property="article:author" content="zhangly">
-<meta property="article:tag" content="hexo,blog,zhangly,programming">
+<meta property="article:tag" content="-BFS">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://zhanglyhub.github.io/images/banner.webp">
   
   
     <link rel="alternate" href="/atom.xml" title="zhangly" type="application/atom+xml">
@@ -222,23 +220,8 @@
 </div>
 <header id="header">
   
-    
-      <picture>
-        
-          
-            <source media="(max-width: 479px)" srcset="/images/c.webp">
-          
-            <source media="(max-width: 799px)" srcset="/images/b.webp">
-          
-            <source media="(min-width:  800px)" srcset="/images/e.webp">
-          
-          <img crossorigin="anonymous" fetchpriority="high" src="/crossorigin=%22anonymous%22%20-%20%22/images/a.webp%22%20-%20%22/images/b.webp%22%20-%20%22/images/c.webp%22" alt="友情链接">
-        
-      </picture>
-      
-        <img alt="友情链接" style="visibility: hidden;">
-      
-    
+    <picture></picture>
+    <img crossorigin="anonymous" fetchpriority="high" src="/images/l.webp" alt="Bfs For Path">
   
   <div id="header-outer">
     <div id="header-title">
@@ -246,7 +229,7 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">友情链接</h1>
+            <h1 data-aos="slide-up">Bfs For Path</h1>
           </a>
         
       
@@ -267,10 +250,20 @@
     <div id="aplayer" theme="var(--color-link)" data-aos="fade-up"></div>
   
   
-  <div class="sidebar-wrapper ">
+  <div class="sidebar-wrapper wrap-sticky">
     <div class="sidebar-wrap" data-aos="fade-up">
       
-        <div class="sidebar-author">
+        
+          <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class" >
+      
+        
+      
+  </div>
+</div>
+</div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="zhangly" class="lazyload">
   <div class="sidebar-author-name">zhangly</div>
   <div class="sidebar-description">个人技术博客，分享编程、算法与生活</div>
@@ -349,8 +342,16 @@
     
   
 </div>
-
+</div>
+        
       
+      
+        
+          <div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div>
+        
       
     </div>
   </div>
@@ -361,17 +362,21 @@
   
 </aside>
 
-          <section id="main"><article id="page-" class="h-entry article article-type-page" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+          <section id="main"><article id="post-m" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner" data-aos="fade-up">
     <div class="article-meta">
       <div class="article-date">
   <span class="article-date-link" data-aos="zoom-in">
-    <time datetime="2025-06-08T14:21:33.670Z" itemprop="datePublished">2025-06-08</time>
-    <time style="display: none;" id="post-update-time">2025-06-08</time>
+    <time datetime="2025-06-15T09:00:00.000Z" itemprop="datePublished">2025-06-15</time>
+    <time style="display: none;" id="post-update-time">2025-06-15</time>
   </span>
 </div>
 
       
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Algorithm/" data-aos="zoom-in">Algorithm</a>
+  </div>
+
 
     </div>
     <div class="hr-line"></div>
@@ -380,23 +385,83 @@
     <div class="e-content article-entry" itemprop="articleBody">
       
       
-        <h2 id="小伙伴们"><a class="markdownIt-Anchor" href="#小伙伴们"></a> 小伙伴们</h2>
-<div class="friend-wrap" data-aos="zoom-in"><div class="friend-item-wrap">
-    <a href="https://d-sketon.github.io/" rel="noopener external nofollow noreferrer" target="_blank"></a>
-    <div class="friend-icon-wrap">
-      <div class="friend-icon">
-          <img data-src="https://d-sketon.github.io/avatar/avatar.webp" data-sizes="auto" alt="Theshine" class="lazyload">
-      </div>
-    </div>
-    <div class="friend-info-wrap">
-      <div class="friend-name">
-          Theshine 
-      </div>
-      <div class="friend-desc">
-        一个车万人
-      </div>
-    </div>
-  </div></div>
+        <p><a target="_blank" rel="noopener" href="https://vjudge.net/problem/UVA-10968">KuPellaKeS - UVA 10968 - Virtual Judge</a></p>
+<p>_ _Wa___WA_Wa but Ac.....</p>
+<p>被输入输出坑了，...................无语，</p>
+<p>本题我刚开始想的时候是维护用并查集维护冗余边，............................不会这么简单吧....好吧真不是这么简单，我一开始也没想到是最短路维护路径信息，看大佬题解才后知后觉，题目问删除一些奇数度点的边，使剩余的点度全为偶数，所给点中最多只有两个奇数度的点，我们可以分类讨论一下：</p>
+<p>1）：如果没有奇数度的点，<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>a</mi><mi>n</mi><mi>s</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">ans=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">an</span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>不需要删</p>
+<p>2）：如果点度数为<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mo separator="true">,</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">0,1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8389em;vertical-align:-0.1944em;"></span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">1</span></span></span></span>无解，题目说不能出现度为<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span>的点</p>
+<p>3）：我们拿到两个奇点的信息，求两个奇点之间的最短路即可（其中不能经过度为2的点）我们想将一个奇点变为偶点，必然会将她邻居的一个点变为奇点，如果隔壁是度为<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex">2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span></span></span></span>的点就断了，显然是不对的，图是联通的，根据传递性，&quot;奇 + 奇 = 偶&quot;，一路传递到另一个奇点，所以只要维护最短路即可。</p>
+<pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h></span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">inf</span> <span class="token expression"><span class="token number">1</span> <span class="token operator">&lt;&lt;</span> <span class="token number">30</span></span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name function">mem</span><span class="token expression"><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">)</span> <span class="token function">memset</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token punctuation">,</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">)</span></span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">st</span> <span class="token expression">first</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">ed</span> <span class="token expression">second</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+
+
+<span class="token keyword">using</span> ll <span class="token operator">=</span> <span class="token keyword">long</span> <span class="token keyword">long</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> ult <span class="token operator">=</span> unordered_set<span class="token operator">&lt;</span>ll<span class="token operator">></span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> ust <span class="token operator">=</span> unordered_set<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">></span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> vt <span class="token operator">=</span> vector<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">></span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> pii <span class="token operator">=</span> pair<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token punctuation">,</span> <span class="token keyword">int</span><span class="token operator">></span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> vpi <span class="token operator">=</span> vector<span class="token operator">&lt;</span>pii<span class="token operator">></span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> ll <span class="token operator">=</span> <span class="token keyword">long</span> <span class="token keyword">long</span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> pis <span class="token operator">=</span> pair<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token punctuation">,</span> string<span class="token operator">></span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> mis <span class="token operator">=</span> unordered_map<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token punctuation">,</span> string<span class="token operator">></span><span class="token punctuation">;</span>
+<span class="token keyword">using</span> mii <span class="token operator">=</span> unordered_map<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token punctuation">,</span> <span class="token keyword">int</span><span class="token operator">></span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token keyword">int</span> N <span class="token operator">=</span> <span class="token number">1005</span><span class="token punctuation">;</span>
+<span class="token keyword">int</span> n<span class="token punctuation">,</span> m<span class="token punctuation">,</span> dis<span class="token punctuation">[</span>N<span class="token punctuation">]</span><span class="token punctuation">,</span> s<span class="token punctuation">[</span>N<span class="token punctuation">]</span><span class="token punctuation">;</span>
+vt g<span class="token punctuation">[</span>N<span class="token punctuation">]</span><span class="token punctuation">;</span>
+vt odd<span class="token punctuation">;</span>
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    ios<span class="token double-colon punctuation">::</span><span class="token function">sync_with_stdio</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    cin<span class="token punctuation">.</span><span class="token function">tie</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token punctuation">;</span>cin <span class="token operator">>></span> n <span class="token operator">>></span> m <span class="token operator">&amp;&amp;</span> <span class="token punctuation">(</span>n <span class="token operator">||</span> m<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+        odd<span class="token punctuation">.</span><span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token function">mem</span><span class="token punctuation">(</span>s<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> g<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">clear</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> dis<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> inf<span class="token punctuation">;</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> m<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+            <span class="token keyword">int</span> a<span class="token punctuation">,</span> b<span class="token punctuation">;</span>
+            cin <span class="token operator">>></span> a <span class="token operator">>></span> b<span class="token punctuation">;</span>
+            g<span class="token punctuation">[</span>a<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">push_back</span><span class="token punctuation">(</span>b<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            g<span class="token punctuation">[</span>b<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">push_back</span><span class="token punctuation">(</span>a<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">&#125;</span>
+        <span class="token keyword">bool</span> early <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span> i <span class="token operator">&lt;=</span> n<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+            s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">=</span> g<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> 
+            <span class="token keyword">if</span><span class="token punctuation">(</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">1</span> <span class="token operator">||</span> s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Poor Koorosh"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> early <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token keyword">break</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span>s<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">&amp;</span> <span class="token number">1</span><span class="token punctuation">)</span> odd<span class="token punctuation">.</span><span class="token function">push_back</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">&#125;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>early<span class="token punctuation">)</span> <span class="token keyword">continue</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>odd<span class="token punctuation">.</span><span class="token function">size</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>cout <span class="token operator">&lt;&lt;</span> <span class="token number">0</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token keyword">continue</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span>
+        <span class="token keyword">bool</span> flag <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        queue<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">></span> q<span class="token punctuation">;</span>
+        q<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>odd<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        dis<span class="token punctuation">[</span>odd<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token operator">!</span>q<span class="token punctuation">.</span><span class="token function">empty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+            <span class="token keyword">int</span> u <span class="token operator">=</span> q<span class="token punctuation">.</span><span class="token function">front</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            q<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span>u <span class="token operator">==</span> odd<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+                flag <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token punctuation">&#125;</span>
+            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">auto</span> v <span class="token operator">:</span> g<span class="token punctuation">[</span>u<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span>s<span class="token punctuation">[</span>v<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token keyword">continue</span><span class="token punctuation">;</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span>dis<span class="token punctuation">[</span>v<span class="token punctuation">]</span> <span class="token operator">!=</span> inf<span class="token punctuation">)</span> <span class="token keyword">continue</span><span class="token punctuation">;</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span>dis<span class="token punctuation">[</span>v<span class="token punctuation">]</span> <span class="token operator">></span> dis<span class="token punctuation">[</span>u<span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+                    dis<span class="token punctuation">[</span>v<span class="token punctuation">]</span> <span class="token operator">=</span> dis<span class="token punctuation">[</span>u<span class="token punctuation">]</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+                    q<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>v<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">&#125;</span> 
+            <span class="token punctuation">&#125;</span>
+        <span class="token punctuation">&#125;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>flag<span class="token punctuation">)</span> cout <span class="token operator">&lt;&lt;</span> dis<span class="token punctuation">[</span>odd<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+        <span class="token keyword">else</span> cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Poor Koorosh"</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+    <span class="token punctuation">&#125;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
       
     </div>
@@ -410,10 +475,31 @@
       
       
       
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/BFS/" rel="tag">-BFS</a></li></ul>
+
 
     </footer>
   </div>
   
+  <nav id="article-nav" data-aos="fade-up">
+    
+    
+    
+    <div class="article-nav-link-wrap article-nav-link-right">
+      
+        <img data-src="/images/l.webp" data-sizes="auto" alt="Bfs Status Message" class="lazyload">
+      
+      <a href="/2025/06/13/e/"></a>
+      <div class="article-nav-caption">后一篇</div>
+      <h3 class="article-nav-title">
+        
+          Bfs Status Message
+        
+      </h3>
+    </div>
+    
+  </nav>
+
 
 </article>
 
@@ -484,7 +570,17 @@
       <nav id="mobile-nav">
   <div class="sidebar-wrap">
     
-      <div class="sidebar-author">
+      
+        <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class" >
+      
+        
+      
+  </div>
+</div>
+</div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="zhangly" class="lazyload">
   <div class="sidebar-author-name">zhangly</div>
   <div class="sidebar-description">个人技术博客，分享编程、算法与生活</div>
@@ -563,9 +659,17 @@
     
   
 </div>
-
+</div>
+      
     
   </div>
+  
+    
+      <div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div>
+    
   
 </nav>
 
@@ -817,14 +921,14 @@
       <script data-pjax>
         window.REIMU_POST = {
           author: "zhangly",
-          title: "友情链接",
-          url: "https://zhanglyhub.github.io/friend/index.html",
+          title: "Bfs For Path",
+          url: "https://zhanglyhub.github.io/2025/06/15/m/",
           excerpt: "",
           description: "",
-          stripContent: " 小伙伴们                                                                Theshine                        一个车万人                ",
-          date: "Sun Jun 08 2025 22:21:33 GMT+0800",
-          updated: "Sun Jun 08 2025 22:21:33 GMT+0800",
-          cover: "/crossorigin=%22anonymous%22%20-%20%22/images/a.webp%22%20-%20%22/images/b.webp%22%20-%20%22/images/c.webp%22",
+          stripContent: "KuPellaKeS - UVA 10968 - Virtual Judge _ _Wa___WA_Wa but Ac..... 被输入输出坑了，...................无语， 本题我刚开始想的时候是维护用并查集维护冗余边，............................不会这么简单吧....好吧真不是这么简单，我一开始也没想到是最短路维护路径信息，看大佬题解才后知后觉，题目问删除一些奇数度点的边，使剩余的点度全为偶数，所给点中最多只有两个奇数度的点，我们可以分类讨论一下：",
+          date: "Sun Jun 15 2025 17:00:00 GMT+0800",
+          updated: "Sun Jun 15 2025 17:23:38 GMT+0800",
+          cover: "/images/l.webp",
         };
       </script>
        
